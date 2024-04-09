@@ -43,9 +43,42 @@ Peter je zamestnanec AVF s.r.o. (Akože Vymyslená Firma), ktorá poskytuje mal�
 aktuálnych ponúk a akcií týchto firiem. Peter pôsobí ako pomocná sila pri správe ich databázy klientov, ktorá obsahuje ich reklamné emailové schránky, heslá a zoznamy klientov. 
 #### <span style="color:red;">Artefakt #2</span>
 > Falošný email - analýza hlavičiek - niekde skryť flag?
-> Použitie OSINT na odhalenie neopatrného pćhateľa
+> Použitie OSINT na odhalenie neopatrného páhateľa
 > 
 > <span style="color:green;">
 > Nesprávne vytvorená hlavička - útočník zabudol a ponechal aj svoje súkromné údaje
 > OSINT part - zistenie kto je útočník - fejkové socials s flagom, možno ľahký github page
 > </span>
+
+
+### Zadanie 3
+Peter si všimol nevinnú chybu v texte avšak neprikladal tomu význam. Mail sa javil ako oficiálna správa, ktorú síce zvyčajne nedostáva
+avšak daná pracovníčka mu je známa tak prílohu stiahol a otvoril.
+
+#### <span style="color:red;">Artefakt #3</span>
+>PDF Výplatná_páska_2024-02.pdf - analýza pdf ktoré obsahuje autorun akciu, javasript, v komentári flag-fake, pravý flag v JS
+>
+> <span style="color:green;">
+> Kompletná analýza metadát akomentárov - fake flag
+> popísať autorun akcie - okienko, ktoré vypýta rodné číslo akože zaheslované ale posiela data
+> </span>
+
+### Zadanie 4
+Kód v PDF stiahol z github repozitára škodlivý kód, analyzujte kód a popíšte čo vykonával
+#### <span style="color:red;">Artefakt #4</span>
+
+> Malicious kód stiahnutý z githubu
+> Tu domyslieť že čo bude ten kód robiť - komunikácia s iným PC? bruteforce prihlásenie na DB server
+
+### Zadanie 5
+Útočník pomocou skriptu vykonal brute-force útok na DB serve, bohžial admin používal slabé heslo a dostal sa tam
+#### <span style="color:red;">Artefakt #5</span>
+> Linux logy ? databázové logy? niečo čo bude ukazovať exfiltráciu
+
+### Zadanie 6
+Zistili sme kam sa odosielalo info, bol to počítač jedného z kolegov vo firme 
+Zachytili sme obraz systému aj daného zamestnanca, skúste analyzoavť všeobecne či nájdete niečo zaujímavé v pamäti
+#### <span style="color:red;">Artefakt #5</span>
+> Tu by som použila už jedno zo zadaní z minulého roka na anlýzu pomocou volatility
+> 
+> 
