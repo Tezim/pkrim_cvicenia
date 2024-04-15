@@ -28,27 +28,14 @@ a obsahoval text:
 
 ### Zadanie 1 (prvá fáza IR)
 
-- vytvoriť image systému Windows pomocou FTK imagera, Spísať inventár artefaktov + hashe (vyslúšať si klasický postup pri zachytávaní dôkazov)
-- tu by som možno pridala image nejakého USB
-- nejakeho programu - vyskúšať si certutil
-#### <span style="color:red;">Artefakt #1</span>
-> Image systému + usb napríklad
-> výsledkom má byť zoznam zachytených dôkazov 
-> analýza systému - zákldané údaje a čo kde hľadať (doplním)
+https://drive.google.com/drive/folders/1WjCEuDrglKi_TyjEvPrynwUu0MfuQYzE?usp=sharing
 
 
 ### Zadanie 2 
 
 Peter je zamestnanec AVF s.r.o. (Akože Vymyslená Firma), ktorá poskytuje malým klientom a podnikateľom reklamné služby. Táto firma je zopovedná za rozosielanie
 aktuálnych ponúk a akcií týchto firiem. Peter pôsobí ako pomocná sila pri správe ich databázy klientov, ktorá obsahuje ich reklamné emailové schránky, heslá a zoznamy klientov. 
-#### <span style="color:red;">Artefakt #2</span>
-> Falošný email - analýza hlavičiek - niekde skryť flag?
-> Použitie OSINT na odhalenie neopatrného páhateľa
-> 
-> <span style="color:green;">
-> Nesprávne vytvorená hlavička - útočník zabudol a ponechal aj svoje súkromné údaje
-> OSINT part - zistenie kto je útočník - fejkové socials s flagom, možno ľahký github page
-> </span>
+https://drive.google.com/drive/folders/1-hJkNU4Ju5Rn8pQ9qd99JZfgzvAp3WYZ?usp=sharing
 
 
 ### Zadanie 3
