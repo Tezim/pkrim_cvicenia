@@ -40,22 +40,17 @@ https://drive.google.com/drive/folders/1-hJkNU4Ju5Rn8pQ9qd99JZfgzvAp3WYZ?usp=sha
 
 ### Zadanie 3
 Peter si všimol nevinnú chybu v texte avšak neprikladal tomu význam. Mail sa javil ako oficiálna správa, ktorú síce zvyčajne nedostáva
-avšak daná pracovníčka mu je známa tak prílohu stiahol a otvoril.
+avšak daná pracovníčka mu je známa tak prílohu stiahol a otvoril. Pdf súbor bol však hneď podozrivý pretože nič neobsahoval.
 
-#### <span style="color:red;">Artefakt #3</span>
->PDF Výplatná_páska_2024-02.pdf - analýza pdf ktoré obsahuje autorun akciu, javasript, v komentári flag-fake, pravý flag v JS
->
-> <span style="color:green;">
-> Kompletná analýza metadát akomentárov - fake flag
-> popísať autorun akcie - okienko, ktoré vypýta rodné číslo akože zaheslované ale posiela data
-> </span>
+https://drive.google.com/drive/folders/1RTtSR-9j5YGeie6qesaydm9V_SqIr_I2?usp=drive_link
 
 ### Zadanie 4
-Kód v PDF stiahol z github repozitára škodlivý kód, analyzujte kód a popíšte čo vykonával
+Kód v PDF spustil reverzný shell pomocou ktorého útočník stiahol z githubu podozrivý kód. Analyzuje čo tento kód robí.
+
 #### <span style="color:red;">Artefakt #4</span>
 
 > Malicious kód stiahnutý z githubu
-> Tu domyslieť že čo bude ten kód robiť - komunikácia s iným PC? bruteforce prihlásenie na DB server
+> kód bude nejaký primitívny ransomware - treba napísať 
 
 ### Zadanie 5
 Útočník pomocou skriptu vykonal brute-force útok na DB serve, bohžial admin používal slabé heslo a dostal sa tam
