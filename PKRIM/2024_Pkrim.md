@@ -45,17 +45,18 @@ avšak daná pracovníčka mu je známa tak prílohu stiahol a otvoril. Pdf súb
 https://drive.google.com/drive/folders/1RTtSR-9j5YGeie6qesaydm9V_SqIr_I2?usp=drive_link
 
 ### Zadanie 4
-Kód v PDF spustil reverzný shell pomocou ktorého útočník stiahol z githubu podozrivý kód. Analyzuje čo tento kód robí.
+Kód v PDF spustil reverzný shell pomocou ktorého útočník stiahol z githubu podozrivý kód. Vieme že kód vykonával podozrivé úkony a všetko bolo zachytené v 
+.pcap súbore.
 
 #### <span style="color:red;">Artefakt #4</span>
-
-> Malicious kód stiahnutý z githubu
-> kód bude nejaký primitívny ransomware - treba napísať 
+https://drive.google.com/drive/folders/1ZdTgcqZjULM6791h7ngPhDiCtrgk8Dxh?usp=sharing
 
 ### Zadanie 5
-Útočník pomocou skriptu vykonal brute-force útok na DB serve, bohžial admin používal slabé heslo a dostal sa tam
+Útočníkov skript okrem exfiltrácie údajov aj zašifroval súbory na PC, pokúste sa zo vzorky kódu vytvoriť dešifrátor.
+
 #### <span style="color:red;">Artefakt #5</span>
-> Linux logy ? databázové logy? niečo čo bude ukazovať exfiltráciu
+https://drive.google.com/drive/folders/14XcqKqjdjjx045IUB_8A9joV12gYIIZw?usp=sharing
+
 
 ### Zadanie 6
 Zistili sme kam sa odosielalo info, bol to počítač jedného z kolegov vo firme 
