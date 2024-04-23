@@ -3,9 +3,9 @@
 Zadania a artefakty vychádzajú z dvoch case-study príkladov na incident. Cieľom cvičenia je spojiť
 všetky doteraz získané vedomosti a vykonať forenznú analýzu incidentu.
 
-## Inicident
+## Incident
 
-Zamestnanec firmy AVF s.r.o. dostal do svojej schránky mail. Javil sa ako oficiálny mail od firemenj účtovníčky
+Zamestnanec firmy AVF s.r.o. dostal do svojej schránky mail. Javil sa ako oficiálny mail od firemnej účtovníčky
 a obsahoval text: 
 
 >Predmet: Dôležité: Aktualizácia informácií o výplatnej páske
@@ -32,14 +32,14 @@ Link: https://drive.google.com/drive/folders/1WjCEuDrglKi_TyjEvPrynwUu0MfuQYzE?u
 
 Readme
 ~~~ 
-Pri práci analytika je potrebné vedieť udalosti nie len správne analyzovať ale aj zachytiť dôkazy. Vašou úlohou v tomto zadaní je využiť AcessData FTK Imager na zachytenie triage obrazu disku ľubovoľného zariadenia s operačným systémom Windows (Váš ntb, virtuálka...). Následne je potrebné vykonať rovnaký postup na zaradení s operačným systémom linux za pomoci nástroja príkazového riadku dcfldd. Následne pomocou zvoleného nástroja vytvorte hash zachytených dôkazov pred aj po analýze aby ste sa ubezpečili, že dôkazy neboli modifikované.
+Pri práci analytika je potrebné vedieť udalosti nielen správne analyzovať, ale aj zachytiť dôkazy. Vašou úlohou v tomto zadaní je využiť AcessData FTK Imager na zachytenie triage obrazu disku ľubovoľného zariadenia s operačným systémom Windows (Váš ntb, virtuálka...). Následne je potrebné vykonať rovnaký postup na zaradení s operačným systémom Linux za pomoci nástroja príkazového riadku dcfldd. Následne pomocou zvoleného nástroja vytvorte hash zachytených dôkazov pred aj po analýze, aby ste sa ubezpečili, že dôkazy neboli modifikované.
 
 Výstup zadania:
 Dokument, ktorý bude obsahovať
 
-	- Popis použitého nástroja a stručný popis na akom zariadení ste údaje získavali (Pre obidva operačné systémy)
-	- Podrobne zdokumentujte ako ste postupovali pri zachytávaní digitálnych dôkazov a pri vytváraní kontrolého hashu
-	- Zo zachteného triage obrazu sa pokúste zistiť základné systémové údaje o zariadení (OS + verzia, používatelia, timezone ...)
+	- Popis použitého nástroja a stručný popis, na akom zariadení ste údaje získavali (Pre obidva operačné systémy)
+	- Podrobne zdokumentujte, ako ste postupovali pri zachytávaní digitálnych dôkazov a pri vytváraní kontrolného hashu
+	- Zo zachyteného triage obrazu sa pokúste zistiť základné systémové údaje o zariadení (OS + verzia, používatelia, timezone ...)
 	- Porovnanie postupu zachytávania triage obrazov pre Linux a Windows
 
 Pokúste sa v dokumente popísať rozdiely, ktoré ste si všimli v procese zachytávania obrazu aj pri získavaní systémových údajov 
@@ -54,8 +54,8 @@ Link: https://drive.google.com/drive/folders/1-hJkNU4Ju5Rn8pQ9qd99JZfgzvAp3WYZ?u
 
 Readme
 ~~~
-Analyzujte priloženú hlavičku, do reportu uveďte nie len technické detaily z Vašej analýzy ale aj Vaše poznatky z pohľadu analytika.
-Pri písaní forenznej analýzy je potrebné nie len správne zhrnúť technický postup a použité nástroje ale aj manažérske zhnutie celého vyšetrovania. 
+Analyzujte priloženú hlavičku, do reportu uveďte nie len technické detaily z Vašej analýzy, ale aj Vaše poznatky z pohľadu analytika.
+Pri písaní forenznej analýzy je potrebné nie len správne zhrnúť technický postup a použité nástroje, ale aj manažérske zhrnutie celého vyšetrovania. 
 Uveďte Vaše závery z analýzy, čo ste zistili, aké sú vaše predpoklady, prípadne v čom sa vyskytol pri analýze problém (nedostatok informácií, zdrojov ...)
 ~~~
 
@@ -67,10 +67,10 @@ Readme
 ~~~
 Príloha vyplatna_paska_Feb24.pdf obsahuje podozrivú prílohu vo forme pdf súboru. Analyzujte tento pdf súbor a spíšte Vaše zistenia:
 
-- strušný popis nástrojoc ktoré ste použili
+- stručný popis nástrojov, ktoré ste použili
 - základné údaje o súbore
-- podrobne popíšte čo podozrivé ste objavili v pdf súbore 
-- poskúste sa odhaliť aká zraniťeľnosť bola použitá a ako sa tomu dalo predísť
+- podrobne popíšte, čo podozrivé ste objavili v pdf súbore 
+- pokúste sa odhaliť, aká zraniteľnosť bola použitá a ako sa tomu dalo predísť
 
 súbor analyzujte výhradne v Kali!
 heslo: infected
@@ -81,9 +81,9 @@ heslo: infected
 Link: https://drive.google.com/drive/folders/1ZdTgcqZjULM6791h7ngPhDiCtrgk8Dxh?usp=sharing
 
 ~~~
-Našťastie máte zapnuté monitorovanie siete a zachytili ste premávku v čase kedy máte podozrenie na aktivitu útočníka. 
-Pokúste sa analyzovať priložený súbor traffic.pcapng a popíšte čo vidíte v záznamoch. 
-Pokúste sa identifikovať podozrivú aktivitu na zariadení a skontrolujte či nedošlo ku exfiltrácií dát.
+Našťastie máte zapnuté monitorovanie siete a zachytili ste premávku v čase, kedy máte podozrenie na aktivitu útočníka. 
+Pokúste sa analyzovať priložený súbor traffic.pcapng a popíšte, čo vidíte v záznamoch. 
+Pokúste sa identifikovať podozrivú aktivitu na zariadení a skontrolujte, či nedošlo ku exfiltrácii dát.
 
 Hint: podozrivé porty, adresa 192.168.137.106
 ~~~
@@ -94,11 +94,11 @@ Link: https://drive.google.com/drive/folders/14XcqKqjdjjx045IUB_8A9joV12gYIIZw?u
 
 Readme
 ~~~
-Zachytili ste vzorku kódu, ktorú útočník nahral a spustil na zariadení, naštastie sa jedná pravdepodobne o skript kiddie útočníka ktorý nenakódil škodlivý kód dobre.
-Pokúste sa kód deobfuskovať a zistite čo sa na počítači vykonávalo. 
-Viete však, že kód niečo zašifroval, naštastie už poznáte tajný kľúč: jZoGpdNx.
+Zachytili ste vzorku kódu, ktorú útočník nahral a spustil na zariadení, našťastie sa jedná pravdepodobne o skript kiddie útočníka, ktorý nenakódil škodlivý kód dobre.
+Pokúste sa kód deobfuskovať a zistite, čo sa na počítači vykonávalo. 
+Viete však, že kód niečo zašifroval, našťastie už poznáte tajný kľúč: jZoGpdNx.
 
-Spíšte postupy a zistenia z analýzy kódu. Reverzujte kód a odšifrujte priložený súbor flag.pkrim. Do reportu priložte aj deobfuskovaný kód.
+Spíšte postupy a zistenia z analýzy kódu. Reverzujte kód a dešifrujte priložený súbor flag.pkrim. Do reportu priložte aj deobfuskovaný kód.
 ~~~
 
 ### Zadanie 6
@@ -107,13 +107,13 @@ Link: https://drive.google.com/drive/folders/1OKjiAWMbuZD3zyf-NcS68DpCaxSvWpBX?u
 
 Readme
 ~~~
-Na anlýzu ste dostali .pcap súbor jeného z firemných počítačov. Pokúste sa z tejto komunikácie zistiť základné systémové informácie aj to či neprebehla podozrivá komunikácia.
+Na analýzu ste dostali .pcap súbor jedného z firemných počítačov. Pokúste sa z tejto komunikácie zistiť základné systémové informácie a aj to, či neprebehla podozrivá komunikácia.
 Pokúste sa zistiť: 
 	- Názov počítača z ktorého prebehla podozrivá komunikácia 
 	- IP a MAC adresu tohto počítača (vieme, že sa používajú IP z range-u 192.168.1.0/16)
 	- Pomocou akého protokolu prebehla podozrivá komunikácia
 	- Nájdite informácie, ktoré unikli. (login, heslo, systémové údaje, adresy účastníkov)
-	- Napíšte čas kedy k tomuto incidentu došlo 
+	- Napíšte čas, kedy k tomuto incidentu došlo 
 ~~~
 
 ### Zadanie 7
@@ -122,13 +122,13 @@ Link: https://drive.google.com/drive/folders/18NqZwUja-pX3ZTplEj6BN-oey12z8N-D?u
 
 Readme
 ~~~
-Dostali ste od firmy hlásenie, že ich počítač bol napadnutý. K dispozícií máme export Windows Events Logov v .xml formáte a .pcap súbor s odchytenou komunikáciou. Vašou úlohou je zistiť, čo sa počas incidentu dialo.
+Dostali ste od firmy hlásenie, že ich počítač bol napadnutý. K dispozícii máme export Windows Events Logov v .xml formáte a .pcap súbor s odchytenou komunikáciou. Vašou úlohou je zistiť, čo sa počas incidentu dialo.
 Úlohy: 
-   -	Zistite ako útočník prenikol do systému. V priloženom .xml súbore nájdite korešpondujúci event, ktorý hovorí o prieniku do systému. Nájdite čas prvého 	prieniku a targetuser, vďaka ktorému útočník do systému prenikol.	
-   -	Po tom ako sa mu podarilo prihlásiť, spustil v počítači malware, zistite jeho názov. 
-   -	Útočník prenikol do systému cez telnet server pomocou brute-force útoku. Zistite z .pcap súboru meno používateľa a heslo, ktoré úhádol.
-   - 	Po prihlásení útočník stiahol z internetu exploit, nájdite url stránky odkiaľ bol
-	exploit stiahnutý
+   -	Zistite, ako útočník prenikol do systému. V priloženom .xml súbore nájdite korešpondujúci event, ktorý hovorí o prieniku do systému. Nájdite čas prvého 	prieniku a targetuser, vďaka ktorému útočník do systému prenikol.	
+   -	Po tom, ako sa mu podarilo prihlásiť, spustil v počítači malware. Zistite jeho názov. 
+   -	Útočník prenikol do systému cez telnet server pomocou brute-force útoku. Zistite z .pcap súboru meno používateľa a heslo, ktoré uhádol.
+   - 	Po prihlásení útočník stiahol z internetu exploit, nájdite url stránky, odkiaľ bol
+	exploit stiahnutý.
 ~~~
 
 ### Zadanie 8
@@ -137,15 +137,15 @@ Link: https://drive.google.com/drive/folders/1ejdvg3zxPE8fXr1JlUuX0Pb8jTOaM0O_?u
 
 Readme
 ~~~
-V priloženom priečinku máte k dispozícií .E01 záznam disku doménového radiča. Analyzujte tento súbor v programe Autopsy a odpovedzte na nasledujúce otázky, k odpovedi treba pripísať aj to kde ste danú informáciu našli.
+V priloženom priečinku máte k dispozícii .E01 záznam disku doménového radiča. Analyzujte tento súbor v programe Autopsy a odpovedzte na nasledujúce otázky, k odpovedi treba pripísať aj to, kde ste danú informáciu našli.
 Otázky: 
   Server
 	- Akých používateľov viete v zariadení identifikovať
 	- Aký je názov servera, operačný systém a detegovaná architektúra procesora
-	- Skontrolujte históriu prehliadania a naájdite IP adresu, s ktorou prebehla podozrivá komunikácia
+	- Skontrolujte históriu prehliadania a nájdite IP adresu, s ktorou prebehla podozrivá komunikácia
 	- V počítači sa nachádza niekoľko súborov .txt, nájdite ich umiestnenie a ich obsah - NoJerry.txt, Beth_secret.txt
 	- Súbor SECRET_beth.txt bol z počítača vymazaný, zistite jeho obsah
- 	- Vyberte si ľubovoľný Autopsy plugin a demoštrujte jeho použitie
+ 	- Vyberte si ľubovoľný Autopsy plugin a demonštrujte jeho použitie
 
 *3rd party plugins: https://wiki.sleuthkit.org/index.php?title=Autopsy_3rd_Party_Modules
 ~~~
@@ -156,16 +156,16 @@ Link: https://drive.google.com/drive/folders/1bNxIDB4Rx7Own5kU1n14o52w08ptbJjH?u
 
 Readme
 ~~~
-Na anlýzu ste dostalo obraz pamäte počítača. Analyzujte ho pomocou nástroja volatility a odpovedte na nasledovné otázky:
+Na analýzu ste dostali obraz pamäte počítača. Analyzujte ho pomocou nástroja volatility a odpovedzte na nasledovné otázky:
 
 - aký operačný systém (profil) má daný dump
-- vylistujte procesy a uvedte názov a PID podozrivého procesu a taktiež jeho rodiča
+- vylistujte procesy a uveďte názov a PID podozrivého procesu a taktiež jeho rodiča
 - uveďte IP adresu zariadenia
 - nájdite adresu útočníka na základe znalosti PID podozrivého procesu
-- pokúste sa vydumpovať daný proces a uveďte jeho md5 hash (môžete pozdieť VirusTotal, Alienvault...)
-- zistite aký používateľ sa na počítači nachádzal a zistite hash jeho hesla
-- vieme že pomocou príkazového riadka bol spustný .vbs skript, uveďte jeho názov
-- vydumpujte proces notepad.exe (zistite jeho pid) a pokúste sa zistit čo v ňom bolo napísané (hint: strings)
+- pokúste sa vydumpovať daný proces a uveďte jeho md5 hash (môžete pozrieť VirusTotal, Alienvault...)
+- zistite, aký používateľ sa na počítači nachádzal a zistite hash jeho hesla
+- vieme že pomocou príkazového riadka bol spustený .vbs skript, uveďte jeho názov
+- vydumpujte proces notepad.exe (zistite jeho pid) a pokúste sa zistiť, čo v ňom bolo napísané (hint: strings)
 
 V zadaní uveďte aj postup (príkazy) a vaše závery. 
 ~~~
